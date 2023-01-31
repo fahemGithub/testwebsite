@@ -1,0 +1,39 @@
+:root {
+    --primary-color: #f89a20;
+    --secondary-color: #00a2e5;
+    --secondary-hover-color: rgba(0, 162, 229, 0.8);
+}
+
+/* Start Rules */
+.cap-btn-primary {
+    color: white;
+    background-color: var(--secondary-color);
+}
+
+.cap-btn-primary:hover {background-color: var(--secondary-hover-color);}
+
+.fa-cart-plus {font-size: 22px;}
+
+/* End Rules */
+.bg-orange {background-color: var(--primary-color);}
+
+.navbar .navbar-brand img {width: 100px;}
+
+.content .card-body img {width: 100px;}
+
+.content .card-body .card-item {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    text-align: left;
+}
+
+.content .card-body .card-item .card-heading {
+    font-size: 22px;
+    width: 80%;
+}
+
+/* Start Footer */
+footer img.footer-logo {width: 200px;}
+
+/* End Footer */
